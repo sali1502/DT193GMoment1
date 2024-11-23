@@ -33,7 +33,7 @@ header {
 }
 
 .navigation a {
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 0.8em;
     margin: 0;
     text-decoration: none;
@@ -105,13 +105,13 @@ nav li:hover {
     display: block;
     width: 20px;
     height: 3px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     margin: 5px 0;
 }
 
 .menu-text {
     font-size: 1em;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 /* Menyknapp - stäng */
