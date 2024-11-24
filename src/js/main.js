@@ -1,5 +1,5 @@
 /* DT193G Moment 1 - CSS-ramverk, Åsa Lindskog sali102@student.miun.se
-*/ 
+*/
 
 "use strict";
 
