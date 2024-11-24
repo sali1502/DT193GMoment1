@@ -82,7 +82,7 @@ nav li:hover {
     align-items: center;
     padding: 8px 15px;
     background-color:rgb(51, 105, 105);
-    border: #000000 solid 2px;
+    border: white solid 2px;
     cursor: pointer;
 }
 
@@ -185,20 +185,14 @@ p {
     height: 83px;
     max-width: 1512px;
     position: fixed;
+    margin: 0 auto 0 auto;
     bottom: 0;
-    left: 0;    
+    text-align: center;
 }
 
 .footer p {
-    padding-left: 5vw;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
     height: 83px;
     max-width: 1512px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
     font-size: 0.8em;
     line-height: 1.6em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
