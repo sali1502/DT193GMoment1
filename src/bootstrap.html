@@ -13,8 +13,8 @@
 </head>
 
 <body>
-  <!-- Responsiv navigering med hamburgermeny och logotype -->
   <header>
+    <!-- Responsiv meny och logotyp -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
       <div class="container">
         <a class="navbar-brand" href="index.html">
@@ -37,31 +37,40 @@
     </nav>
   </header>
 
-<!-- Bild och text i två kolumner - vid brytpunkt under 1200px en kolumn -->
+  <!-- Bild och text i två kolumner - brytpunkt 1200px en kolumn -->
   <main class="my-5">
     <div class="container">
       <div class="row gx-5">
+
+        <!--Bild-->
         <div class="col-xl-6 mb-4"><img src="https://picsum.photos/id/104/600/400" alt="Drömfångare"
             class="img-fluid" />
         </div>
+
+        <!--Text-->
         <div class="col-xl-6 mb-4">
           <h1>Bootstrap</h1>
           <p>Bootstrap är ett populärt CSS-ramverk som går att installera via npm eller CDN.
             I den här uppgiften har CDN använts. Fördelen med Bootstrap är att ramverket förenklar arbetet, främst när
             det gäller responisvitet.
-            Tabellen på den här sidan blir scrollbar i sidled på en liten skärm och en brytpunkt har lagts vid 1200 px (XL).
-            En nackdel med Bootstrap är att det endast finns ett litet utbud av färger att välja på för färdiga komponenter som till exempel knappar.
+            Tabellen på den här sidan blir scrollbar i sidled på en liten skärm och en brytpunkt har lagts vid 1200 px
+            (XL).
+            En nackdel med Bootstrap är att det endast finns ett litet utbud av färger att välja på för färdiga
+            komponenter som till exempel knappar.
             Det går dock att använda SASS för att skapa ett eget färgschema. Nedan finns två länkar, en till Bootstraps
             officiella sida och en till en instruktionsvideo från MDBootstrap.com som jag fann hjälpsam.<br>
             <a class="link-opacity-100-hover"
-              href="https://getbootstrap.com/docs/5.3/getting-started/introduction">Bootstraps officiella webbplats</a><br>
-            <a class="link-opacity-100-hover" href="https://www.youtube.com/watch?v=-qfEOE4vtxE">MDBootstrap.com instruktionsvideo</a>
+              href="https://getbootstrap.com/docs/5.3/getting-started/introduction">Bootstraps officiella
+              webbplats</a><br>
+            <a class="link-opacity-100-hover" href="https://www.youtube.com/watch?v=-qfEOE4vtxE">MDBootstrap.com
+              instruktionsvideo</a>
           </p>
         </div>
 
-        <!-- Tabell och formlär i två kolumner - vid brytpunkt under 1200px en kolumn -->
+        <!-- Tabell och formlär i två kolumner - brytpunkt 1200px en kolumn -->
         <div class="row gx-5">
           <div class="col-xl-6 mb-4">
+
             <!-- Tabell-->
             <h2>Tabell</h2>
             <div class="table-responsive-xl">
@@ -116,6 +125,8 @@
             </div>
           </div>
           <div class="col-xl-6 mb-4">
+
+            <!--Formulär-->
             <h2>Formulär</h2>
             <form action="">
               <label for="firstname" class="form-label">Förnamn:</label>
@@ -152,6 +163,7 @@
         </div>
   </main>
 
+  <!-- Footer-->
   <footer class="text-center text-lg-start bg-body-tertiary" data-bs-theme="dark">
     <div class="text-center p-4">
       <p class="text-light">DT193G Fullstack-utveckling med ramverk<br>
@@ -163,6 +175,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+
 </body>
 
 </html>

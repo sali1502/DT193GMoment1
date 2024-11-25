@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
 }
@@ -173,8 +175,8 @@ p {
     color: rgb(51, 105, 105);
     width: 100%;
     max-width: 750px;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
 .footer {
@@ -194,7 +196,7 @@ p {
     height: 83px;
     max-width: 1512px;
     font-size: 0.8em;
-    line-height: 1.6em;
+    line-height: 1.5em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     margin: 0 auto 0 auto;
