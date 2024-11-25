@@ -19,129 +19,135 @@
 <body>
     <div class="container">
 
-    <!-- Meny och logotyp -->
-    <header>
-            <div class="row">
-                    <div class="column">
-                        <nav>
-                            <a class="button" href="index.html">Hem</a>
-                            <a class="button" href="bootstrap.html">Bootstrap</a>
-                            <a class="button" href="milligram.html">Milligram</a>
-                            <a class="button" href="vercel.html">Vercel</a>  
-                        </nav>
-                    </div>
-                </div>
-            </header>
-
-            <main>
-                <!--Bild och text i två kolumner -->
-                <div class="row">
-                    <div class="column"><img src="https://picsum.photos/id/287/600/400" alt="Drömfångare">
-                    </div>
-                    <div class="column">
-                        <h1>Milligram</h1>
-                        <p>Milligram är ett litet CSS-ramverk...<br>
-                            <a href="https://milligram.io/">Milligrams officiella webbplats</a><br>
-                        </p>
-                    </div>
-                </div>
-
-                <!--Tabell och formulär i en kolumn -->
-                <div class="row">
-                    <div class="column">
-
-                        <!-- Tabell -->
-                        <h2>Tabell</h2>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th scope="col">#</th>
-                                    <th scope="col">Förnamn</th>
-                                    <th scope="col">Efternamn</th>
-                                    <th scope="col">Yrke</th>
-                                    <th scope="col">Beskrivning</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row">1</th>
-                                    <td>Anna</td>
-                                    <td>Johansson</td>
-                                    <td>Webbutvecklare</td>
-                                    <td>Fem års erfarenhet inom fullstack-utveckling.</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2</th>
-                                    <td>Göran</td>
-                                    <td>Kvist</td>
-                                    <td>Projektledare</td>
-                                    <td>Mångårig erfarenhet av agila IT-projekt.</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">3</th>
-                                    <td>Gull-Britt</td>
-                                    <td>Andersson</td>
-                                    <td>UX-designer</td>
-                                    <td>Specialist inom tillgänglighet och webbanvändbarhet.</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">4</th>
-                                    <td>Gustav</td>
-                                    <td>Ljung</td>
-                                    <td>IT-arkitekt</td>
-                                    <td>Lång erfarenhet inom yrket.</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">5</th>
-                                    <td>Per</td>
-                                    <td>Svensson</td>
-                                    <td>Nätverkstekniker</td>
-                                    <td>Nätverks- och supporttekniker.</td>
-                                </tr>
-                            </tbody>
-                        </table>
-
-                        <!-- Formulär -->
-                        <h2>Formulär</h2>
-                        <form>
-                            <fieldset>
-                                <label for="firstname">Förnamn</label>
-                                <input type="text" placeholder="e.g Anna" id="firstname">
-                                <label for="surname">Efternamn</label>
-                                <input type="text" placeholder="e.g Johansson" id="surname">
-                                <label for="title">Yrke</label>
-                                <select id="title">
-                                    <option value="Webdeveloper">Webbutvecklare</option>
-                                    <option value="UI-UX-designer">UI/UX-designer</option>
-                                    <option value="Projectleader">Projektledare</option>
-                                    <option value="IT-architect">IT-arkitekt</option>
-                                    <option value="Network-technician">Nätverkstekniker</option>
-                                </select>
-                                <label for="query">Beskrivning</label>
-                                <textarea placeholder="Beskriv din yrkesroll här..."></textarea>
-                                <div class="float-right">
-                                    <input type="checkbox" id="checkbox">
-                                    <label class="label-inline" for="checkbox">Jag accepterar villkoren &#42;</label>
-                                </div>
-                                <input class="button-primary" type="submit" value="Skicka">
-                                <p><small>&#42; Villkor.</small></p>
-                            </fieldset>
-                        </form>
-                    </div>
-                </div>
-            </main>
-
-            <!-- Footer -->
+        <!-- Meny -->
+        <header>
             <div class="row">
                 <div class="column">
-                    <footer>
-                        <div>
-                            <p>DT193G Fullstack-utveckling med ramverk | Moment 1 | &copy;&nbsp; Åsa Lindskog 2024</p>
-                        </div>
-                    </footer>
+                    <nav>
+                        <a class="button" href="index.html">Hem</a>
+                        <a class="button" href="bootstrap.html">Bootstrap</a>
+                        <a class="button" href="milligram.html">Milligram</a>
+                        <a class="button" href="vercel.html">Vercel</a>
+                    </nav>
                 </div>
             </div>
+        </header>
+
+        <main>
+
+            <!-- Bild och text i två kolumner -->
+            <div class="row">
+                <!-- Bild -->
+                <div class="column"><img src="https://picsum.photos/id/287/600/400" alt="Grönskande bergslandskap">
+                </div>
+                <!-- Text -->
+                <div class="column">
+                    <h1>Milligram</h1>
+                    <p>Milligram är ett mycket litet CSS-ramverk som går att installera med bland annat npm och CDN.
+                        I den här uppgiften har CDN använts. Fördelen med Milligram det går snabbt att lära sig och är enkelt att använda.
+                        Gridsystemet är logiskt och det går fort att skapa en responsiv tabell eller ett formulär.
+                        Nackdelen är att det svårt att göra justeringar i designen som till exempel att ändra färg,
+                        storlek eller placering. Här nedan finns en länk till Milligrams officiella webbplats.<br>
+                        <a href="https://milligram.io/">Milligrams officiella webbplats</a>
+                    </p>
+                </div>
+            </div>
+
+            <!--Tabell och formulär i en kolumn -->
+            <div class="row">
+                <div class="column">
+                    <!-- Tabell -->
+                    <h2>Tabell</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Förnamn</th>
+                                <th scope="col">Efternamn</th>
+                                <th scope="col">Yrke</th>
+                                <th scope="col">Beskrivning</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Anna</td>
+                                <td>Johansson</td>
+                                <td>Webbutvecklare</td>
+                                <td>Fem års erfarenhet inom fullstack-utveckling.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Göran</td>
+                                <td>Kvist</td>
+                                <td>Projektledare</td>
+                                <td>Mångårig erfarenhet av agila IT-projekt.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Gull-Britt</td>
+                                <td>Andersson</td>
+                                <td>UX-designer</td>
+                                <td>Specialist inom tillgänglighet och webbanvändbarhet.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Gustav</td>
+                                <td>Ljung</td>
+                                <td>IT-arkitekt</td>
+                                <td>Lång erfarenhet inom yrket.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td>Per</td>
+                                <td>Svensson</td>
+                                <td>Nätverkstekniker</td>
+                                <td>Nätverks- och supporttekniker.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Formulär -->
+                    <h2>Formulär</h2>
+                    <form>
+                        <fieldset>
+                            <label for="firstname">Förnamn</label>
+                            <input type="text" placeholder="e.g Anna" id="firstname">
+                            <label for="surname">Efternamn</label>
+                            <input type="text" placeholder="e.g Johansson" id="surname">
+                            <label for="title">Yrke</label>
+                            <select id="title">
+                                <option value="Webdeveloper">Webbutvecklare</option>
+                                <option value="UI-UX-designer">UI/UX-designer</option>
+                                <option value="Projectleader">Projektledare</option>
+                                <option value="IT-architect">IT-arkitekt</option>
+                                <option value="Network-technician">Nätverkstekniker</option>
+                            </select>
+                            <label for="query">Beskrivning</label>
+                            <textarea placeholder="Beskriv din yrkesroll här..."></textarea>
+                            <div class="float-right">
+                                <input type="checkbox" id="checkbox">
+                                <label class="label-inline" for="checkbox">Jag accepterar villkoren &#42;</label>
+                            </div>
+                            <input class="button-primary" type="submit" value="Skicka">
+                            <p><small>&#42; Villkor.</small></p>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <div class="row">
+            <div class="column">
+                <footer>
+                    <div>
+                        <p>DT193G Fullstack-utveckling med ramverk | Moment 1 | &copy;&nbsp; Åsa Lindskog 2024</p>
+                    </div>
+                </footer>
+            </div>
         </div>
+    </div>
 
 </body>
 
