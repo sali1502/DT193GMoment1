@@ -202,8 +202,12 @@ p {
     font-weight: 400;
 }
 
-.space {
-    height: 30vh;
+.space1 {
+    height: 35vh;
+}
+
+.space2 {
+    height: 20vh;
 }
 
 /* MEDIA QUERIES */
