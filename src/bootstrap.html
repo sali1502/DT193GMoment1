@@ -1,3 +1,6 @@
+<!-- DT193G Fullstack-utveckling med ramverk, Moment 1 - CSS-ramverk.
+Åsa Lindskog, sali1502@student.miun.se -->
+
 <!DOCTYPE html>
 <html lang="sv">
 
@@ -10,6 +13,7 @@
 </head>
 
 <body>
+  <!-- Responsiv navigering med hamburgermeny och logotype -->
   <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
       <div class="container">
@@ -33,30 +37,34 @@
     </nav>
   </header>
 
+<!-- Bild och text i två kolumner - vid brytpunkt under 1200px en kolumn -->
   <main class="my-5">
     <div class="container">
       <div class="row gx-5">
         <div class="col-xl-6 mb-4"><img src="https://picsum.photos/id/104/600/400" alt="Drömfångare"
             class="img-fluid" />
         </div>
-        <div class="col-xl-6 mb-4 gx-5">
+        <div class="col-xl-6 mb-4">
           <h1>Bootstrap</h1>
           <p>Bootstrap är ett populärt CSS-ramverk som går att installera via npm eller CDN.
             I den här uppgiften har CDN använts. Fördelen med Bootstrap är att ramverket förenklar arbetet, främst när
             det gäller responisvitet.
             Tabellen på den här sidan blir scrollbar i sidled på en liten skärm och en brytpunkt har lagts vid 1200 px (XL).
             En nackdel med Bootstrap är att det endast finns ett litet utbud av färger att välja på för färdiga komponenter som till exempel knappar.
-            Det går dock att använda SASS för att skapa egna färgscheman. Nedan finns två länkar, en till Bootstraps
-            officiella sida och en till en instruktions-video från MDBootstrap.com som jag fann hjälpsam.<br>
+            Det går dock att använda SASS för att skapa ett eget färgschema. Nedan finns två länkar, en till Bootstraps
+            officiella sida och en till en instruktionsvideo från MDBootstrap.com som jag fann hjälpsam.<br>
             <a class="link-opacity-100-hover"
               href="https://getbootstrap.com/docs/5.3/getting-started/introduction">Bootstraps officiella webbplats</a><br>
             <a class="link-opacity-100-hover" href="https://www.youtube.com/watch?v=-qfEOE4vtxE">MDBootstrap.com instruktionsvideo</a>
           </p>
         </div>
+
+        <!-- Tabell och formlär i två kolumner - vid brytpunkt under 1200px en kolumn -->
         <div class="row gx-5">
           <div class="col-xl-6 mb-4">
+            <!-- Tabell-->
             <h2>Tabell</h2>
-            <div class="table-responsive-md">
+            <div class="table-responsive-xl">
               <table class="table table-bordered table-hover table-striped table-primary display-12">
                 <thead>
                   <tr>
@@ -73,7 +81,7 @@
                     <td>Anna</td>
                     <td>Johansson</td>
                     <td>Webbutvecklare</td>
-                    <td>Fem års erfarenhet inom Fullstack-utveckling.</td>
+                    <td>Fem års erfarenhet inom fullstack-utveckling.</td>
                   </tr>
                   <tr>
                     <th scope="row">2</th>
@@ -86,7 +94,7 @@
                     <th scope="row">3</th>
                     <td>Gull-Britt</td>
                     <td>Andersson</td>
-                    <td>UX-designer</td>
+                    <td>UI/UX-designer</td>
                     <td>Specialist inom tillgänglighet och webbanvändbarhet.</td>
                   </tr>
                   <tr>
@@ -111,13 +119,13 @@
             <h2>Formulär</h2>
             <form action="">
               <label for="firstname" class="form-label">Förnamn:</label>
-              <input type="firstname" id="firstname" placeholder="e.g Anna" class="form-control" />
+              <input type="text" id="firstname" placeholder="e.g Anna" class="form-control" />
               <label for="surname" class="form-label">Efternamn:</label>
-              <input type="surname" id="surname" placeholder="e.g Johansson" class="form-control" />
+              <input type="text" id="surname" placeholder="e.g Johansson" class="form-control" />
               <label for="title" class="form-label">Yrke:</label>
               <select name="title" id="title" class="form-select">
                 <option value="Webdeveloper" selected>Webbutvecklare</option>
-                <option value="UX-designer">UX-designer</option>
+                <option value="UI-UX-designer">UI/UX-designer</option>
                 <option value="Projectleader">Projektledare</option>
                 <option value="IT-architect">IT-arkitekt</option>
                 <option value="Network-technician">Nätverkstekniker</option>
@@ -146,7 +154,7 @@
 
   <footer class="text-center text-lg-start bg-body-tertiary" data-bs-theme="dark">
     <div class="text-center p-4">
-      <p class="text-light">DT1936 Fullstack-utveckling med ramverk<br>
+      <p class="text-light">DT193G Fullstack-utveckling med ramverk<br>
         Moment 1<br>
         © Åsa Lindskog 2024</p>
     </div>
